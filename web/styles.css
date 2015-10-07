@@ -1,0 +1,38 @@
+form {
+    margin: 0 auto;
+    //width: 600px;
+    
+    border: 1px solid #CCC;
+    padding: 1em;
+    
+    font: 1em sans-serif;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 220px;
+    text-align: left;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+
+    width: 200px;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height; 5em;
+    resize: vertical;
+}
+
+button {
+    margin-left: .5em;
+}

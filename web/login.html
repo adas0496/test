@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link href="styles.css" type="text/css" rel="stylesheet" />
+
+        <style>
+            form {
+                width: 600px;
+            }
+            label {
+                width: 120px;
+            }
+            .rs {
+                margin-left: 100px;
+            }
+            .buttons {
+                padding-left: 120px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <form action="login.jsp" method="post">
+            <h4 style="text-align: center">User Login</h4>
+            
+            <div>
+            <label for="user_id">User Id </label>
+            <input type="text" id="user_id" name="userId" />
+            <a href="registration.html" class="rs">New User?</a>
+            </div>
+            
+            <div>
+            <label for="pwd">Password </label>
+            <input type="password" id="pwd" name="password" />
+            <button type="submit" class="rs">Sign In</button>
+            </div>
+            
+            <div class="buttons">
+            <button type="button">Forgot Password?</button>
+            </div>
+            
+        </form>
+    </body>
+</html>
